@@ -35,8 +35,10 @@ footer {
   background-color: #0a0b22;
   text-align: center;
   font-size: 1rem;
+  padding-bottom: 15px;
 }
 footer .credit {
+  padding: 10px;
   color: #fff;
 }
 footer .social-links {
@@ -81,7 +83,6 @@ footer .fa-brands, footer .fa-solid {
   font-family: "Tahoma", sans-serif;
 }
 .survey-main h1, .survey-main h2, .survey-main p {
-  margin: 1em auto;
   text-align: center;
   color: white;
 }
@@ -164,20 +165,20 @@ input[type=submit]:hover {
   overflow-x: hidden;
 }
 
-header {
+.tribute-header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: fixed;
+  padding: 10px 0;
 }
 
-nav {
+.tribute-nav {
   background-color: #6868ac;
   flex-wrap: wrap;
 }
-
-nav > ul {
+.tribute-nav .tribute-links {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -186,21 +187,18 @@ nav > ul {
   margin-block: 0;
   height: 100%;
 }
-
-nav > ul > li {
+.tribute-nav .tribute-links .tribute-link {
   color: #6868ac;
   margin: 0 0.2rem;
   padding: 0.2rem;
   display: block;
 }
-
-nav > ul > li:hover {
+.tribute-nav .tribute-links .tribute-link:hover {
   background-color: #c6c6e6;
   color: #000;
   cursor: pointer;
 }
-
-li > a {
+.tribute-nav .tribute-links .tribute-link a {
   color: #fff;
   text-decoration: none;
 }
@@ -227,7 +225,7 @@ section {
   max-width: 700px;
 }
 
-h2 {
+.tribute-subtitle {
   border-bottom: 4px solid #6868ac;
   margin-top: 0px;
   padding-top: 60px;
