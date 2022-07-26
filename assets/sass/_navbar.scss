@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #0a0b22;
+    .logo {
+        width: 50px;
+    }
+    }
+.dropdown-menu {
+    background-color: #0a0b22;
+    .dropdown-item {
+        color: #ffffff;
+        &:hover {
+            color: #000000;
+        }
+        &:active {
+            background-color:#ffffff;
+        }
+    }
+}
+
+

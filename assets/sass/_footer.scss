@@ -1,0 +1,28 @@
+footer {
+    background-color: #0a0b22;
+    text-align: center;
+    font-size: 1rem;
+    .credit {
+        color: #fff;
+    }
+    .social-links {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        li {
+            list-style: none;
+        }
+    }
+    .social-link {
+        color: #fff;
+        &:hover {
+            color: #46448f;
+            cursor: pointer;
+        }
+    }
+    .fa-brands, .fa-solid {
+        font-size: 2rem;
+    }
+}

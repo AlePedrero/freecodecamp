@@ -1,0 +1,130 @@
+.tribute-body {
+    background-color:#9e9ecb;
+}
+.tribute-main {
+    font-family: 'Poppins', 'Century Gothic';
+    color: #000;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+}
+
+nav {
+    background-color: #6868ac;
+    flex-wrap: wrap;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav > ul > li {
+    color: #6868ac;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav > ul > li:hover {
+    background-color: #c6c6e6;
+    color: #000;
+    cursor: pointer;
+}
+
+li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#title {
+    color: #6655ac;
+    background-color: #c6c6e6;
+    font-size: 60px;
+    text-align: center;
+}
+
+main {
+    padding-top: 50px;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    padding: 30px 15px;
+}
+
+#image {
+    width: 100%;
+    max-width: 700px;
+}
+
+h2 {
+    border-bottom: 4px solid #6868ac;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#img-caption, #tribute-info, #more-info {
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+
+#gallery img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+    #gallery img {
+    width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    #gallery img {
+    width: 100%;
+    }
+}

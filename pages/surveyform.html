@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c576db8c87.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Survey Form</title>
+</head>
+<body class="survey-body">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo img-fluid" src="../assets/img/fcclogo.png" alt="freeCodeCamp Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../pages/surveyform.html">Survey Form</a></li>
+                            <li><a class="dropdown-item" href="../pages/tributepage.html">Tribute Page</a></li>
+                            <li><a class="dropdown-item" href="#">Technical Documentation Page</a></li>
+                            <li><a class="dropdown-item" href="#">Product Landing Page</a></li>
+                            <li><a class="dropdown-item" href="#">Personal Portfolio Webpage</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Certificate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="survey-main">
+        <h1 id="survey-title">Vasanta Comunicaciones</h1>
+        <h2 id="survey-subtitle">Buzón de Quejas y Sugerencias</h2>
+        <p id="description">Gracias por tomarte el tiempo de ayudarnos a mejorar la plataforma y tu experiencia con nosotros.</p>
+        <div class="background">
+            <form id="survey-form" class="survey-form">
+                <label id="name-label" name="name"><strong>Nombre:</strong>
+                    <input id="name" type="text" placeholder="Coloca tu nombre completo" required>
+                </label>
+                <label id="email-label" name="email"><strong>Correo Electrónico:</strong>
+                    <input id="email" type="email" placeholder="tucorreo@mail.com" required>
+                </label>
+                <label id="number-label" name="number"><strong>Edad:</strong>
+                    <input id="number" type="number" min="13" max="120" placeholder="Edad" required>
+                </label>
+                <label for="servicio" id="servicio-label" name="servicio"><strong>Servicio Contratado:</strong>
+                    <select id="dropdown" required>
+                        <option value="">(Selecciona Uno)</option>
+                        <option value="mbb">Telefonía Celular</option>
+                        <option value="hbb">Internet Hogar (Fijo)</option>
+                        <option value="mifi">Internet Portátil (Mifi)</option>
+                    </select>
+                </label>
+                <label id="cliente" name="cliente"><strong>Tipo de Usuario:</strong><br>
+                    <input id="usuario" type="radio" name="usuario-type" class="inline" value="fisica">
+                        <span>Persona Física</span> 
+                    <input id="usuario" type="radio" name="usuario-type" class="inline" value="moral">
+                        <span>Persona Moral</span>
+                </label>
+                <label><strong>Medio en el que fuiste atendido:</strong><br>
+                    <input type="checkbox" name="medio" class="inline" value="llamada" /><span>Llamada</span>
+                    <input type="checkbox" name="medio" class="inline" value="chat" /><span>Chat</span>
+                    <input type="checkbox" name="medio" class="inline" value="correo" /><span>Correo electrónico</span>
+                    <input type="checkbox" name="medio" class="inline" value="rrss" /><span>Redes Sociales</span>
+                    <input type="checkbox" name="medio" class="inline" value="otro" /><span>Otro</span>
+                </label>
+                <h4>Queremos saber tu opinión</h4>
+                <label>
+                    <span>¿Cuál ha sido tu experiencia?</span>
+                    <textarea></textarea>
+                </label>
+                <label>
+                    <span>¿En qué área? </span>
+                    <textarea></textarea>
+                </label>
+                <label>
+                    <span>¿En qué podríamos mejorar?</span>
+                    <textarea></textarea>
+                </label>
+                <label>
+                    <span>¿Alguna otra sugerencia?</span>
+                    <textarea></textarea>
+                </label>
+                <input id="submit" type="submit">
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <p class="credit"> &copy; coded by <a class="social-link" href="#">alejandra.dev</a> 2022</p>
+        <ul class="social-links">
+            <li>
+                <a class="social-link" href="https://github.com/AlePedrero"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+                <a class="social-link" href="https://www.linkedin.com/in/alejandrapedrero/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+                <a class="social-link" href="mailto:contacto@alejandra.dev"><i class="fa-solid fa-at"></i></a>
+            </li>
+            <li>
+                <a class="social-link" href="https://www.twitter.com/codedbyale"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a class="social-link" href="https://www.instagram.com/codedbyale"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

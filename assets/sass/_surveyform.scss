@@ -1,0 +1,93 @@
+/* #2aa7ff	(42,167,255)
+#5abbff	(90,187,255)
+#89ceff	(137,206,255)
+#bce3ff	(188,227,255)
+#eff8ff	(239,248,255) */
+
+.survey-body {
+    background-image: url("https://roams.mx/images/post/es_MX_telco/companias-telefonicas-vasanta.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+}
+
+.survey-main {
+    margin-top: 120px;
+    font-family: "Tahoma", sans-serif;
+    h1, h2, p {
+        margin: 1em auto;
+        text-align: center;
+        color: white;
+    }
+}
+
+.background {
+    background-color: transparent;
+    background-color: rgba(0, 20, 0, 0.5);
+    color: white;
+    border: rgb(42, 167, 255) transparent;
+    border-radius: 66px;
+    padding: 2rem 0;
+    width: 100%;
+    max-width: 540px;
+    margin: 3.125rem auto 3.125rem auto;
+}
+
+.background:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+
+.survey-form {
+    display: block;
+    margin-top: 0em;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    label {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #eff2ff;
+    border: 1px solid #eff8ff;
+    color: black;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.usuario {
+    width: 10px;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #30345c;
+    border-color: transparent;
+    border-radius: 16px;
+    min-width: 300px;
+    color: white;
+    &:hover {
+        color: #8b9dc3;
+    }
+}

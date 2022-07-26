@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inconsolata", sans-serif;
+  background-color: #1b1a33;
+}
+
+.navbar {
+  background-color: #0a0b22;
+}
+.navbar .logo {
+  width: 50px;
+}
+
+.dropdown-menu {
+  background-color: #0a0b22;
+}
+.dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: #000000;
+}
+.dropdown-menu .dropdown-item:active {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #0a0b22;
+  text-align: center;
+  font-size: 1rem;
+}
+footer .credit {
+  color: #fff;
+}
+footer .social-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .social-links li {
+  list-style: none;
+}
+footer .social-link {
+  color: #fff;
+}
+footer .social-link:hover {
+  color: #46448f;
+  cursor: pointer;
+}
+footer .fa-brands, footer .fa-solid {
+  font-size: 2rem;
+}
+
+/* #2aa7ff	(42,167,255)
+#5abbff	(90,187,255)
+#89ceff	(137,206,255)
+#bce3ff	(188,227,255)
+#eff8ff	(239,248,255) */
+.survey-body {
+  background-image: url("https://roams.mx/images/post/es_MX_telco/companias-telefonicas-vasanta.svg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: 16px;
+}
+
+.survey-main {
+  margin-top: 120px;
+  font-family: "Tahoma", sans-serif;
+}
+.survey-main h1, .survey-main h2, .survey-main p {
+  margin: 1em auto;
+  text-align: center;
+  color: white;
+}
+
+.background {
+  background-color: transparent;
+  background-color: rgba(0, 20, 0, 0.5);
+  color: white;
+  border: rgb(42, 167, 255) transparent;
+  border-radius: 66px;
+  padding: 2rem 0;
+  width: 100%;
+  max-width: 540px;
+  margin: 3.125rem auto 3.125rem auto;
+}
+
+.background:not(:last-of-type) {
+  border-bottom: 3px solid #3b3b4f;
+}
+
+.survey-form {
+  display: block;
+  margin-top: 0em;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.survey-form label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  background-color: #eff2ff;
+  border: 1px solid #eff8ff;
+  color: black;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.usuario {
+  width: 10px;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type=submit] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #30345c;
+  border-color: transparent;
+  border-radius: 16px;
+  min-width: 300px;
+  color: white;
+}
+input[type=submit]:hover {
+  color: #8b9dc3;
+}
+
+.tribute-body {
+  background-color: #9e9ecb;
+}
+
+.tribute-main {
+  font-family: "Poppins", "Century Gothic";
+  color: #000;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+}
+
+nav {
+  background-color: #6868ac;
+  flex-wrap: wrap;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #6868ac;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #c6c6e6;
+  color: #000;
+  cursor: pointer;
+}
+
+li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#title {
+  color: #6655ac;
+  background-color: #c6c6e6;
+  font-size: 60px;
+  text-align: center;
+}
+
+main {
+  padding-top: 50px;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  padding: 30px 15px;
+}
+
+#image {
+  width: 100%;
+  max-width: 700px;
+}
+
+h2 {
+  border-bottom: 4px solid #6868ac;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#img-caption, #tribute-info, #more-info {
+  text-align: justify;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+#tribute-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+}
+
+#gallery img {
+  width: 30%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 8px;
+  padding: 0 4px;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  #gallery img {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  #gallery img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */
