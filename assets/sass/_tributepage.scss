@@ -1,11 +1,13 @@
 .tribute-body {
     background-color:#9e9ecb;
 }
-.tribute-main {
+#tribute-main {
     font-family: 'Poppins', 'Century Gothic';
     color: #000;
     margin: 0;
     overflow-x: hidden;
+    padding-top: 60px;
+    align-items: center;
 }
 
 .tribute-header {
@@ -14,7 +16,6 @@
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    padding: 10px 0;
 }
 
 .tribute-nav {
@@ -51,14 +52,10 @@
     background-color: #c6c6e6;
     font-size: 60px;
     text-align: center;
+    padding: 10px;
 }
 
-main {
-    padding-top: 50px;
-    align-items: center;
-}
-
-section {
+#authors, #comics {
     width: 100%;
     padding: 30px 15px;
 }
@@ -103,25 +100,28 @@ section {
     justify-content: center;
     align-items: center;
     padding: 0 4px;
-}
-
-#gallery img {
-    width: 30%;
-    height: 300px;
-    object-fit: cover;
-    margin-top: 8px;
-    padding: 0 4px;
-    border-radius: 8px;
+    img {
+        width: 30%;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 8px;
+        padding: 0 4px;
+        border-radius: 8px;
+    }
 }
 
 @media (max-width: 800px) {
-    #gallery img {
-    width: 50%;
+    #gallery {
+        img {
+            width: 50%;
+            }
     }
 }
 
 @media (max-width: 600px) {
-    #gallery img {
-    width: 100%;
+    #gallery {
+        img {
+            width: 100%;
+            }
     }
 }

@@ -48,16 +48,16 @@
         <div class="background">
             <form id="survey-form" class="survey-form">
                 <label id="name-label" name="name"><strong>Nombre:</strong>
-                    <input id="name" type="text" placeholder="Coloca tu nombre completo" required>
+                    <input id="name" type="text" placeholder="Coloca tu nombre completo" class="input-survey" required>
                 </label>
                 <label id="email-label" name="email"><strong>Correo Electrónico:</strong>
-                    <input id="email" type="email" placeholder="tucorreo@mail.com" required>
+                    <input id="email" type="email" placeholder="tucorreo@mail.com" class="input-survey" required>
                 </label>
                 <label id="number-label" name="number"><strong>Edad:</strong>
-                    <input id="number" type="number" min="13" max="120" placeholder="Edad" required>
+                    <input id="number" type="number" min="13" max="120" placeholder="Edad" class="input-survey" required>
                 </label>
                 <label for="servicio" id="servicio-label" name="servicio"><strong>Servicio Contratado:</strong>
-                    <select id="dropdown" required>
+                    <select id="dropdown" class="input-survey" required>
                         <option value="">(Selecciona Uno)</option>
                         <option value="mbb">Telefonía Celular</option>
                         <option value="hbb">Internet Hogar (Fijo)</option>
@@ -65,36 +65,36 @@
                     </select>
                 </label>
                 <label id="cliente" name="cliente"><strong>Tipo de Usuario:</strong><br>
-                    <input id="usuario" type="radio" name="usuario-type" class="inline" value="fisica">
+                    <input id="usuario" type="radio" name="usuario-type" class="inline input-survey" value="fisica">
                         <span>Persona Física</span> 
-                    <input id="usuario" type="radio" name="usuario-type" class="inline" value="moral">
+                    <input id="usuario" type="radio" name="usuario-type" class="inline input-survey" value="moral">
                         <span>Persona Moral</span>
                 </label>
                 <label><strong>Medio en el que fuiste atendido:</strong><br>
-                    <input type="checkbox" name="medio" class="inline" value="llamada" /><span>Llamada</span>
-                    <input type="checkbox" name="medio" class="inline" value="chat" /><span>Chat</span>
-                    <input type="checkbox" name="medio" class="inline" value="correo" /><span>Correo electrónico</span>
-                    <input type="checkbox" name="medio" class="inline" value="rrss" /><span>Redes Sociales</span>
-                    <input type="checkbox" name="medio" class="inline" value="otro" /><span>Otro</span>
+                    <input type="checkbox" name="medio" class="inline input-survey" value="llamada" /><span>Llamada</span>
+                    <input type="checkbox" name="medio" class="inline input-survey" value="chat" /><span>Chat</span>
+                    <input type="checkbox" name="medio" class="inline input-survey" value="correo" /><span>Correo electrónico</span>
+                    <input type="checkbox" name="medio" class="inline input-survey" value="rrss" /><span>Redes Sociales</span>
+                    <input type="checkbox" name="medio" class="inline input-survey" value="otro" /><span>Otro</span>
                 </label>
                 <h4>Queremos saber tu opinión</h4>
                 <label>
                     <span>¿Cuál ha sido tu experiencia?</span>
-                    <textarea></textarea>
+                    <textarea class="input-survey"></textarea>
                 </label>
                 <label>
                     <span>¿En qué área? </span>
-                    <textarea></textarea>
+                    <textarea class="input-survey"></textarea>
                 </label>
                 <label>
                     <span>¿En qué podríamos mejorar?</span>
-                    <textarea></textarea>
+                    <textarea class="input-survey"></textarea>
                 </label>
                 <label>
                     <span>¿Alguna otra sugerencia?</span>
-                    <textarea></textarea>
+                    <textarea class="input-survey"></textarea>
                 </label>
-                <input id="submit" type="submit">
+                <input id="submit" type="submit" class="submit-survey">
             </form>
         </div>
     </main>

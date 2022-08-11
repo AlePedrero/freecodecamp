@@ -1,0 +1,233 @@
+.landing-body {
+    background-color: #faebd7;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}
+.landing-main {
+    padding-top: 60px;
+}
+
+#header {
+    background-color: #b18e69;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 5px;
+}
+
+#header-img {
+    width: 70px;
+}
+
+#nav-bar {
+    .navlinks-landing {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .navlink-landing {
+            display: inline-block;
+            padding: 15px 10px;
+            font-size: 20px;
+            font-weight: 500;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                &:hover {
+                    color: 	#6f533f;
+                }
+            }
+        }
+    }
+}
+
+.landing-banner {
+    background-color: #f6f6f2;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    .landing-banner-img {
+        max-width: 700px;
+    }
+    .landing-banner-content {
+        padding: 80px 50px;
+    }
+}
+
+.landing-title {
+    font-size: 64px;
+    text-align: center;
+    .span-title {
+        color: 	#6f533f;
+    }
+}
+
+.landing-txt {
+    font-size: 25px;
+    text-align: justify;
+    .span-one {
+        color: #6f533f;
+    }
+}
+
+.landing-banner-btn {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #6f533f;
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+.landing-about {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    .landing-about-txt {
+        padding: 80px;
+    }
+}
+
+.landing-subtitle {
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+}
+
+.landing-txt {
+    font-size: 20px;
+    .span-two {
+        color: #6f533f;
+        font-style: italic;
+    }
+}
+
+.landing-prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.landing-card {
+    width: 600px;
+    border: 2px solid #b18e69;
+    margin: 3px;
+    background-color: #f6f6f2;
+}
+
+.landing-card-content {
+    width: 400px;
+    padding: 15px;
+    .landing-price-title {
+        text-align: center;
+        font-size: 36px;
+        color: #6f533f;
+    }
+    .landing-price {
+        text-align: center;
+        font-size: 54px;
+    }
+    .landing-features, ul {
+        text-align: left;
+    }
+}
+
+.landing-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+    justify-content: center;
+    padding: 20px;
+    .landing-gallery-img {
+        width: 400px;
+        border-radius: 10px
+    }
+}
+
+.landing-prices-cta {
+    text-align: center;
+    padding: 10px;
+    font-size: 26px;
+    background-color: #6f533f;
+    color: #f6f6f2;
+    border-radius: 15px;
+    border: none;
+}
+
+.landing-newsletter {
+    background-color: #6f533f;
+    padding: 30px;
+    color: #faebd7;
+    text-align: center;
+}
+
+.landing-newsletter-txt {
+    font-weight: 400;
+}
+
+#form {
+    #email {
+        width: 20%;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    #submit {
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: #faebd7;
+    }
+}
+
+@media (max-width: 1235px) {
+    .landing-gallery {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        justify-content: center;
+        align-items: center;
+    }
+    .landing-about, .landing-prices {
+        flex-direction: column
+    }
+    .landing-card, .landing-card-content {
+        max-width: 300px;
+    }
+}
+
+@media (max-width:1095px) {
+    .landing-banner-img {
+            width: 50%;
+        }
+}
+
+@media (max-width: 970px) {
+    .landing-banner {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:830px) {
+    .landing-gallery {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6, auto);
+    }
+}
+
+@media (max-width: 700px) {
+    .landing-banner-img {
+        width: 400px;
+    }
+    #video {
+        max-width: 400px;
+    }
+}

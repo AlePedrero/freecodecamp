@@ -8,9 +8,9 @@
     <script src="https://kit.fontawesome.com/c576db8c87.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <title>Survey Form</title>
+    <title>Product Landing Page</title>
 </head>
-<body>
+<body class="landing-body">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
@@ -41,22 +41,111 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main class="landing-main">
         <header id="header">
-            <img src="" id="header-img">
+            <div class="logo-landing">
+                <img src="../assets/img/notion-logo.png" id="header-img">
+            </div>
             <nav id="nav-bar">
-                <ul>
-                    <li class="nav-link" id="nav-link1"></li>
-                    <li class="nav-link" id="nav-link2"></li>
-                    <li class="nav-link" id="nav-link3"></li>
+                <ul class="navlinks-landing">
+                    <li class="navlink-landing" id="nav-link1"><a href="#about">About</a></li>
+                    <li class="navlink-landing" id="nav-link2"><a href="#prices">Prices</a></li>
+                    <li class="navlink-landing" id="nav-link3"><a href="#suscribe">Suscribe</a></li>
                 </ul>
             </nav>
         </header>
-        <iframe src="" frameborder="0" id="video"></iframe>
-        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form" >
-            <input type="email" name="email" id="email" placeholder="email" required>
-            <input type="submit" value="submit" id="submit">
-        </form>
+        <section class="landing-banner">
+            <img src="../assets/img/mockup-landing.png" alt="Notion in a mobile Phone" class="landing-banner-img">
+            <div class="landing-banner-content">
+                <h1 class="landing-title">It all starts with an <span class="span-title">idea</span>.</h1>
+                <p class="landing-txt">Do you want to use <span class="span-one">Notion</span> but don't have time to create your own templates?</p>
+                <p class="landing-txt">Don't worry, we got you covered.</p>
+                <button class="landing-banner-btn"><a href="#about">Know more</a></button>
+            </div>
+        </section>
+        <section class="landing-about" id="about">
+            <div class="landing-about-txt">
+                <h2 class="landing-subtitle">How it works?</h2>
+                <p class="landing-txt">We create templates based on what our customers need, because not only is important for the template to look cute, it has to be <span class="span-two">functional</span>.
+                See our work watching the following video or our template gallery below.</p>
+            </div>
+            <div class="landing-iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FxgbvoXwyxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe> <!-- Video is not mine, it belongs to: https://www.youtube.com/channel/UCIkyNU52swwLCXCNV3uK0KQ-->
+            </div>
+        </section>
+        <section id="landing-gallery">
+            <h3 class="landing-subtitle">Our template gallery.</h3>
+            <div class="landing-gallery">
+                <img src="../assets/img/template-1.jpg" alt="" class="landing-gallery-img">
+                <img src="../assets/img/template-2.png" alt="" class="landing-gallery-img">
+                <img src="../assets/img/template-3.png" alt="" class="landing-gallery-img">
+                <img src="../assets/img/template-4.png" alt="" class="landing-gallery-img">
+                <img src="../assets/img/template-5.png" alt="" class="landing-gallery-img">
+                <img src="../assets/img/template-6.png" alt="" class="landing-gallery-img">
+            </div>
+        </section>
+        <section id="prices">
+            <h3 class="landing-subtitle">Our Prices.</h3>
+            <div class="landing-prices">
+                <div class="landing-card">
+                    <div class="landing-card-content">
+                        <h4 class="landing-price-title">One template</h4>
+                    <h5 class="landing-price">$20</h5>
+                    <p class="landing-features">Includes: 
+                        <ul>
+                            <li>
+                                One videocall to know you better and understand your needs.
+                            </li>
+                            <li>
+                                One Notion Template.
+                            </li>
+                        </ul>
+                    </p>
+                    <button class="landing-prices-cta">Buy Now</button>
+                    </div>
+                </div>
+                <div class="landing-card">
+                    <div class="landing-card-content">
+                        <h4 class="landing-price-title">Ten templates</h4>
+                    <h5 class="landing-price">$150</h5>
+                    <p class="landing-features">Includes:
+                        <ul>
+                            <li>
+                                One videocall to know you better and understand your needs.
+                            </li>
+                            <li>Ten Notion templates.</li>
+                        </ul>
+                    </p>
+                    <button class="landing-prices-cta">Buy Now</button>
+                    </div>
+                </div>
+                <div class="landing-card">
+                    <div class="landing-card-content">
+                        <h4 class="landing-price-title">Unlimited templates</h4>
+                    <h5 class="landing-price">$200</h5>
+                    <p class="landing-features">Includes:
+                        <ul>
+                            <li>
+                                One videocall to know you better andunderstand your needs.
+                            </li>
+                            <li>
+                                Unlimited Notion templates.
+                            </li>
+                        </ul>
+                    </p>
+                    <button class="landing-prices-cta">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="landing-newsletter" id="suscribe">
+            <h6 class="landing-subtitle">Suscribe to our newsletter 📨</h6>
+            <p class="landing-newsletter-txt">and be the first to know about our new features, offers, discounts, and more!</p>
+            <form action="https://www.freecodecamp.com/email-submit" method="post" id="form" >
+                <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+                <input type="submit" value="Suscribe" id="submit">
+            </form>
+        </section>
     </main>
     <footer>
         <p class="credit"> &copy; coded by <a class="social-link" href="#">alejandra.dev</a> 2022</p>

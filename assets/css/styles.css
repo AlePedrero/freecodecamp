@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -62,11 +63,6 @@ footer .fa-brands, footer .fa-solid {
   font-size: 2rem;
 }
 
-/* #2aa7ff	(42,167,255)
-#5abbff	(90,187,255)
-#89ceff	(137,206,255)
-#bce3ff	(188,227,255)
-#eff8ff	(239,248,255) */
 .survey-body {
   background-image: url("https://roams.mx/images/post/es_MX_telco/companias-telefonicas-vasanta.svg");
   background-size: cover;
@@ -117,7 +113,7 @@ footer .fa-brands, footer .fa-solid {
   margin: 0.5rem 0;
 }
 
-input, textarea, select {
+.input-survey {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
@@ -138,7 +134,7 @@ input, textarea, select {
   vertical-align: middle;
 }
 
-input[type=submit] {
+.submit-survey {
   display: block;
   width: 60%;
   margin: 1em auto;
@@ -150,7 +146,7 @@ input[type=submit] {
   min-width: 300px;
   color: white;
 }
-input[type=submit]:hover {
+.submit-survey:hover {
   color: #8b9dc3;
 }
 
@@ -158,11 +154,13 @@ input[type=submit]:hover {
   background-color: #9e9ecb;
 }
 
-.tribute-main {
+#tribute-main {
   font-family: "Poppins", "Century Gothic";
   color: #000;
   margin: 0;
   overflow-x: hidden;
+  padding-top: 60px;
+  align-items: center;
 }
 
 .tribute-header {
@@ -171,7 +169,6 @@ input[type=submit]:hover {
   justify-content: flex-end;
   align-items: center;
   position: fixed;
-  padding: 10px 0;
 }
 
 .tribute-nav {
@@ -208,14 +205,10 @@ input[type=submit]:hover {
   background-color: #c6c6e6;
   font-size: 60px;
   text-align: center;
+  padding: 10px;
 }
 
-main {
-  padding-top: 50px;
-  align-items: center;
-}
-
-section {
+#authors, #comics {
   width: 100%;
   padding: 30px 15px;
 }
@@ -261,7 +254,6 @@ section {
   align-items: center;
   padding: 0 4px;
 }
-
 #gallery img {
   width: 30%;
   height: 300px;
@@ -279,5 +271,231 @@ section {
 @media (max-width: 600px) {
   #gallery img {
     width: 100%;
+  }
+}
+.landing-body {
+  background-color: #faebd7;
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+}
+
+.landing-main {
+  padding-top: 60px;
+}
+
+#header {
+  background-color: #b18e69;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 5px;
+}
+
+#header-img {
+  width: 70px;
+}
+
+#nav-bar .navlinks-landing {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#nav-bar .navlinks-landing .navlink-landing {
+  display: inline-block;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#nav-bar .navlinks-landing .navlink-landing a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#nav-bar .navlinks-landing .navlink-landing a:hover {
+  color: #6f533f;
+}
+
+.landing-banner {
+  background-color: #f6f6f2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.landing-banner .landing-banner-img {
+  max-width: 700px;
+}
+.landing-banner .landing-banner-content {
+  padding: 80px 50px;
+}
+
+.landing-title {
+  font-size: 64px;
+  text-align: center;
+}
+.landing-title .span-title {
+  color: #6f533f;
+}
+
+.landing-txt {
+  font-size: 25px;
+  text-align: justify;
+}
+.landing-txt .span-one {
+  color: #6f533f;
+}
+
+.landing-banner-btn {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: #6f533f;
+}
+.landing-banner-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.landing-about {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 10px;
+}
+.landing-about .landing-about-txt {
+  padding: 80px;
+}
+
+.landing-subtitle {
+  font-size: 48px;
+  text-align: center;
+  padding: 10px;
+}
+
+.landing-txt {
+  font-size: 20px;
+}
+.landing-txt .span-two {
+  color: #6f533f;
+  font-style: italic;
+}
+
+.landing-prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.landing-card {
+  width: 600px;
+  border: 2px solid #b18e69;
+  margin: 3px;
+  background-color: #f6f6f2;
+}
+
+.landing-card-content {
+  width: 400px;
+  padding: 15px;
+}
+.landing-card-content .landing-price-title {
+  text-align: center;
+  font-size: 36px;
+  color: #6f533f;
+}
+.landing-card-content .landing-price {
+  text-align: center;
+  font-size: 54px;
+}
+.landing-card-content .landing-features, .landing-card-content ul {
+  text-align: left;
+}
+
+.landing-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+  justify-content: center;
+  padding: 20px;
+}
+.landing-gallery .landing-gallery-img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.landing-prices-cta {
+  text-align: center;
+  padding: 10px;
+  font-size: 26px;
+  background-color: #6f533f;
+  color: #f6f6f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.landing-newsletter {
+  background-color: #6f533f;
+  padding: 30px;
+  color: #faebd7;
+  text-align: center;
+}
+
+.landing-newsletter-txt {
+  font-weight: 400;
+}
+
+#form #email {
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+#form #submit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #faebd7;
+}
+
+@media (max-width: 1235px) {
+  .landing-gallery {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+  }
+  .landing-about, .landing-prices {
+    flex-direction: column;
+  }
+  .landing-card, .landing-card-content {
+    max-width: 300px;
+  }
+}
+@media (max-width: 1095px) {
+  .landing-banner-img {
+    width: 50%;
+  }
+}
+@media (max-width: 970px) {
+  .landing-banner {
+    flex-direction: column;
+  }
+}
+@media (max-width: 830px) {
+  .landing-gallery {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(6, auto);
+  }
+}
+@media (max-width: 700px) {
+  .landing-banner-img {
+    width: 400px;
+  }
+  #video {
+    max-width: 400px;
   }
 }/*# sourceMappingURL=styles.css.map */
