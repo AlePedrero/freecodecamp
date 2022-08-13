@@ -1,11 +1,11 @@
 footer {
-    background-color: #0a0b22;
+    background-color: $secondary-fcc;
     text-align: center;
     font-size: 1rem;
     padding-bottom: 15px;
     .credit {
         padding: 10px;
-        color: #fff;
+        color: $light-color;
     }
     .social-links {
         margin: 0;
@@ -18,9 +18,9 @@ footer {
         }
     }
     .social-link {
-        color: #fff;
+        color: $light-color;
         &:hover {
-            color: #46448f;
+            color: $hover-fcc;
             cursor: pointer;
         }
     }

@@ -1,9 +1,9 @@
 .tribute-body {
-    background-color:#9e9ecb;
+    background-color: $primary-tribute;
 }
 #tribute-main {
-    font-family: 'Poppins', 'Century Gothic';
-    color: #000;
+    font-family: $poppins;
+    color: $dark-color;
     margin: 0;
     overflow-x: hidden;
     padding-top: 60px;
@@ -19,7 +19,7 @@
 }
 
 .tribute-nav {
-    background-color: #6868ac;
+    background-color: $secondary-tribute;
     flex-wrap: wrap;
     .tribute-links {
         display: flex;
@@ -30,17 +30,17 @@
         margin-block: 0;
         height: 100%;
         .tribute-link {
-            color: #6868ac;
+            color: $secondary-tribute;
             margin: 0 0.2rem;
             padding: 0.2rem;
             display: block;
             &:hover {
-                background-color: #c6c6e6;
-                color: #000;
+                background-color: $light-tribute;
+                color: $dark-color;
                 cursor: pointer;
             }
             a {
-                color: #fff;
+                color: $light-color;
                 text-decoration: none;
             }
         }
@@ -48,8 +48,8 @@
 }
 
 #title {
-    color: #6655ac;
-    background-color: #c6c6e6;
+    color: $terciary-tribute;
+    background-color: $light-tribute;
     font-size: 60px;
     text-align: center;
     padding: 10px;
@@ -66,7 +66,7 @@
 }
 
 .tribute-subtitle {
-    border-bottom: 4px solid #6868ac;
+    border-bottom: 4px solid $secondary-tribute;
     margin-top: 0px;
     padding-top: 60px;
 }

@@ -40,7 +40,7 @@ footer {
 }
 footer .credit {
   padding: 10px;
-  color: #fff;
+  color: #ffffff;
 }
 footer .social-links {
   margin: 0;
@@ -53,7 +53,7 @@ footer .social-links li {
   list-style: none;
 }
 footer .social-link {
-  color: #fff;
+  color: #ffffff;
 }
 footer .social-link:hover {
   color: #46448f;
@@ -80,13 +80,13 @@ footer .fa-brands, footer .fa-solid {
 }
 .survey-main h1, .survey-main h2, .survey-main p {
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .background {
   background-color: transparent;
   background-color: rgba(0, 20, 0, 0.5);
-  color: white;
+  color: #ffffff;
   border: rgb(42, 167, 255) transparent;
   border-radius: 66px;
   padding: 2rem 0;
@@ -118,8 +118,8 @@ footer .fa-brands, footer .fa-solid {
   width: 100%;
   min-height: 2em;
   background-color: #eff2ff;
-  border: 1px solid #eff8ff;
-  color: black;
+  border: 1px solid #eff2ff;
+  color: #000000;
 }
 
 .inline {
@@ -144,7 +144,7 @@ footer .fa-brands, footer .fa-solid {
   border-color: transparent;
   border-radius: 16px;
   min-width: 300px;
-  color: white;
+  color: #ffffff;
 }
 .submit-survey:hover {
   color: #8b9dc3;
@@ -155,8 +155,8 @@ footer .fa-brands, footer .fa-solid {
 }
 
 #tribute-main {
-  font-family: "Poppins", "Century Gothic";
-  color: #000;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
   margin: 0;
   overflow-x: hidden;
   padding-top: 60px;
@@ -192,11 +192,11 @@ footer .fa-brands, footer .fa-solid {
 }
 .tribute-nav .tribute-links .tribute-link:hover {
   background-color: #c6c6e6;
-  color: #000;
+  color: #000000;
   cursor: pointer;
 }
 .tribute-nav .tribute-links .tribute-link a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 

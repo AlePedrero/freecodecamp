@@ -1,6 +1,6 @@
 .landing-body {
-    background-color: #faebd7;
-    font-family: 'Quicksand', sans-serif;
+    background-color: $primary-landing;
+    font-family: $quicksand;
     overflow-x: hidden;
 }
 .landing-main {
@@ -8,7 +8,7 @@
 }
 
 #header {
-    background-color: #b18e69;
+    background-color: $secondary-landing;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,9 +32,9 @@
             font-weight: 500;
             a {
                 text-decoration: none;
-                color: #ffffff;
+                color: $light-color;
                 &:hover {
-                    color: 	#6f533f;
+                    color: $terciary-landing;
                 }
             }
         }
@@ -42,7 +42,7 @@
 }
 
 .landing-banner {
-    background-color: #f6f6f2;
+    background-color: $light-landing;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -58,7 +58,7 @@
     font-size: 64px;
     text-align: center;
     .span-title {
-        color: 	#6f533f;
+        color: $terciary-landing;
     }
 }
 
@@ -66,7 +66,7 @@
     font-size: 25px;
     text-align: justify;
     .span-one {
-        color: #6f533f;
+        color: $terciary-landing;
     }
 }
 
@@ -76,10 +76,10 @@
     font-size: 20px;
     border-radius: 15px;
     border: none;
-    background-color: #6f533f;
+    background-color: $terciary-landing;
     a {
         text-decoration: none;
-        color: #ffffff;
+        color: $light-color;
     }
 }
 
@@ -102,7 +102,7 @@
 .landing-txt {
     font-size: 20px;
     .span-two {
-        color: #6f533f;
+        color: $terciary-landing;
         font-style: italic;
     }
 }
@@ -118,9 +118,9 @@
 
 .landing-card {
     width: 600px;
-    border: 2px solid #b18e69;
+    border: 2px solid $secondary-landing;
     margin: 3px;
-    background-color: #f6f6f2;
+    background-color: $light-landing;
 }
 
 .landing-card-content {
@@ -129,7 +129,7 @@
     .landing-price-title {
         text-align: center;
         font-size: 36px;
-        color: #6f533f;
+        color: $terciary-landing;
     }
     .landing-price {
         text-align: center;
@@ -157,16 +157,16 @@
     text-align: center;
     padding: 10px;
     font-size: 26px;
-    background-color: #6f533f;
-    color: #f6f6f2;
+    background-color: $terciary-landing;
+    color: $light-landing;
     border-radius: 15px;
     border: none;
 }
 
 .landing-newsletter {
-    background-color: #6f533f;
+    background-color: $terciary-landing;
     padding: 30px;
-    color: #faebd7;
+    color: $primary-landing;
     text-align: center;
 }
 
@@ -185,7 +185,7 @@
         border: none;
         border-radius: 10px;
         padding: 5px;
-        background-color: #faebd7;
+        background-color: $primary-landing;
     }
 }
 

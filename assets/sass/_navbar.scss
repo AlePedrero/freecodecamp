@@ -1,18 +1,18 @@
 .navbar {
-    background-color: #0a0b22;
+    background-color: $secondary-fcc;
     .logo {
         width: 50px;
     }
     }
 .dropdown-menu {
-    background-color: #0a0b22;
+    background-color: $secondary-fcc;
     .dropdown-item {
-        color: #ffffff;
+        color: $light-color;
         &:hover {
-            color: #000000;
+            color: $dark-color;
         }
         &:active {
-            background-color:#ffffff;
+            background-color: $light-color;
         }
     }
 }

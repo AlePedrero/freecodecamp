@@ -1,3 +1,37 @@
+// IMPORT FONTS
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+// FONT-FAMILY VARIABLES
+$inconsolata: "Inconsolata", sans-serif;
+$tahoma: "Tahoma", sans-serif;
+$poppins: "Poppins", sans-serif;
+$quicksand: "Quicksand", sans-serif;
+
+// COLORS VARIABLES MAIN PAGE, NAVBAR AND FOOTER
+$primary-fcc: #1b1a33;
+$secondary-fcc: #0a0b22;
+$hover-fcc: #46448f;
+$light-color: #ffffff;
+$dark-color: #000000;
+
+// SURVEY FORM VARIABLES
+$primary-survey: rgba(0, 20, 0, 0.5);
+$border-survey: rgb(42, 167, 255) transparent;
+$secondary-survey: #3b3b4f;
+$terciary-survey: #30345c;
+$accent-survey: #8b9dc3;
+$light-survey: #eff2ff;
+
+// TRIBUTE PAGE VARIABLES 
+$primary-tribute: #9e9ecb;
+$secondary-tribute: #6868ac;
+$terciary-tribute: #6655ac;
+$light-tribute: #c6c6e6;
+
+// PRODUCT LANDING PAGE VARIABLES
+$primary-landing: #faebd7;
+$secondary-landing: #b18e69;
+$terciary-landing: #6f533f;
+$light-landing: #f6f6f2;
